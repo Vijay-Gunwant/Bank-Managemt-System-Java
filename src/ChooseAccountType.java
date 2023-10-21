@@ -2,7 +2,7 @@ import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
 public class ChooseAccountType implements ActionListener{
-    private final JFrame AccountType = new JFrame("Choose Account Type");
+    private final JFrame AccountType = new JFrame("this is my account Hemant");
     private final JLabel bankLogo = new JLabel(new ImageIcon("C:\\Users\\vijia\\OneDrive\\Desktop\\HeraPheriBank\\src\\Images\\Logo.png"));
     private final JButton SavingAccount = new JButton("Savings Account");
     private final JButton CurrentAccount = new JButton("Current Account");
@@ -12,7 +12,8 @@ public class ChooseAccountType implements ActionListener{
 
     public void design(){
 
-
+        int first = 34;
+        
         // Adding AnD setting frame
         AccountType.setSize(500,500);
         AccountType.getContentPane().setBackground(new Color(238, 182, 146, 255));
